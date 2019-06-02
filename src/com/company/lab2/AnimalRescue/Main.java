@@ -4,6 +4,11 @@ public class Main {
 
     public static void main(String[] arghs) {
         Dog rocky = new Dog();
+        Adopter john = new Adopter();
+        AnimalFood pedigree= new AnimalFood();
+        RecreationType play= new RecreationType();
+        VeterinaryPhysician doctorJoy= new VeterinaryPhysician();
+
         System.out.println(rocky.breed);
         rocky.drink();
 
@@ -21,5 +26,19 @@ public class Main {
 
         System.out.println(rocky.breed);
         rocky.drink();
+
+        System.out.println(john.name);
+        john.money();
+
+        System.out.println(pedigree.name);
+        pedigree.price();
+
+        System.out.println(play.recreation);
+        play.recreation();
+
+        System.out.println(doctorJoy.name);
+        doctorJoy.specialization();
+
+
     }
 }
