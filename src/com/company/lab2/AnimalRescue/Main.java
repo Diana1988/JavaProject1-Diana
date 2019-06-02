@@ -35,7 +35,6 @@ public class Main {
 
         System.out.println(play.recreation);
         play.recreation();
-
         System.out.println(doctorJoy.name);
         doctorJoy.specialization();
 
