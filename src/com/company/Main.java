@@ -1,25 +1,27 @@
 package com.company;
 
+import com.sun.source.util.SourcePositions;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello");
-        System.out.println("DIANAMUNTEANU");
-        byte result= 5+10;
-        System.out.println(result);
-        byte x=-5;
-        byte y=8;
-        byte z=6;
-        byte result2 =-5+8*6;
-        System.out.println(result2);
-        byte a=55;
-        byte b=9;
-        byte result3=(55+9)%9;
-        System.out.println(result3);
 
+        int x=4;
+        Integer y= 4;
 
-
-
+        List<Integer> myList= new ArrayList<>();
+        for(int i=1; i<=100; i++){
+            myList.add(i);
+        }
+        System.out.println(myList.get(99));
     }
-}
+
+
+
+        }
+
+
+

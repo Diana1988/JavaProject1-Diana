@@ -11,10 +11,8 @@ public class Dog{
     int mood= 9;
     String favFood= "pedigree";
     String favPlay="jump";
-     public void eat(){
-         System.out.println( " He's eating dog food");
 
-     }
+     public void eat(){ System.out.println( " He's eating dog food"); }
      public void drink(){
          System.out.println("He's drinking water");
      }
@@ -23,5 +21,7 @@ public class Dog{
      }
      public void sleep(){
          System.out.println("zzzz");
+     }
+     public void mood() { System.out.println("He's current mood is 8");
      }
 }

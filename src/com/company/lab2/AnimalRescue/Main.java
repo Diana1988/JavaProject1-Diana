@@ -6,7 +6,6 @@ public class Main {
         Dog rocky = new Dog();
         Adopter john = new Adopter();
         AnimalFood pedigree= new AnimalFood();
-        RecreationType play= new RecreationType();
         VeterinaryPhysician doctorJoy= new VeterinaryPhysician();
 
         System.out.println(rocky.breed);
@@ -28,15 +27,21 @@ public class Main {
         rocky.drink();
 
         System.out.println(john.name);
-        john.money();
+        john.behaviour();
+        System.out.println(john.age);
+        john.language();
+
+        System.out.println(john.name);
+        john.work();
 
         System.out.println(pedigree.name);
-        pedigree.price();
+        pedigree.smell();
 
-        System.out.println(play.recreation);
-        play.recreation();
         System.out.println(doctorJoy.name);
-        doctorJoy.specialization();
-
+        doctorJoy.treatment();
+        System.out.println(doctorJoy.age);
+        doctorJoy.consultation();
+        System.out.println(pedigree.quantity);
+        pedigree.smell();
     }
 }

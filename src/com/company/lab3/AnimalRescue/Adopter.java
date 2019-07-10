@@ -1,9 +1,9 @@
-package com.company.lab2.AnimalRescue;
+package com.company.lab3.AnimalRescue;
 
 public class Adopter {
-    String name = "John";
-    int money = 2000;
-    int age = 30;
+    private String name;
+    private int money;
+    private int age;
 
     public void language() {
         System.out.println("He speaks English");
